@@ -114,7 +114,7 @@ export function BookingForm({ initialService }: { initialService?: string }) {
     );
   const values = getValues();
   return (
-    <div className="booking-form">
+    <div className="booking-form on-dark">
       <ol className="booking-steps" aria-label={copy.etapasDoAgendamento}>
         {steps.map((label, i) => (
           <li
@@ -131,7 +131,7 @@ export function BookingForm({ initialService }: { initialService?: string }) {
         <ShieldCheck size={18} />
         <span>{copy.modoDemonstracaoUseDadosFicticiosNada}</span>
       </div>
-      <h2 ref={heading} tabIndex={-1} className="form-heading">
+      <h2 ref={heading} tabIndex={-1} className="form-heading on-dark">
         {
           [
             copy.comoPodemosCuidarDeVoce,
@@ -141,7 +141,7 @@ export function BookingForm({ initialService }: { initialService?: string }) {
           ][step]
         }
       </h2>
-      <p className="form-subtitle">
+      <p className="form-subtitle on-dark">
         {
           [
             copy.selecioneUmaCategoriaParaExplorarA,

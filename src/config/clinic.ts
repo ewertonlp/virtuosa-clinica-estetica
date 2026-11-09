@@ -1,18 +1,20 @@
 import type { Clinic } from "@/types/clinic";
-const name = "Élara";
+const name = "Virtuosa";
 export const clinic: Clinic = {
-  id: "elara-concept",
+  id: "virtuosa-mogi-das-cruzes",
   name,
-  tagline: "ESTÉTICA & BEM-ESTAR",
-  description: `Um olhar sensível para a sua individualidade. Conheça o conceito ${name} de estética e bem-estar.`,
+  tagline: "CLÍNICA DE ESTÉTICA",
+  description: `${name} Clínica de Estética, no Centro de Mogi das Cruzes. Conheça esta proposta de website e consulte os dados de contato da clínica.`,
   demo: true,
   showDemoBadge: true,
   contact: {
-    phone: null,
+    phone: "+55 11 98581-9552",
     whatsapp: null,
     email: null,
-    address: null,
-    mapUrl: null,
+    address:
+      "R. Dr. Ricardo Vilela, 1380 — Centro, Mogi das Cruzes — SP, CEP 08780-060, Brasil",
+    mapUrl:
+      "https://www.google.com/maps/search/?api=1&query=Virtuosa%20Cl%C3%ADnica%20de%20Est%C3%A9tica&query_place_id=ChIJMwnwMf3ZzZQRlVkRnLePJyg",
     instagram: null,
   },
   openingHours: [],

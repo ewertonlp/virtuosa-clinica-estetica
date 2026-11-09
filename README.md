@@ -1,8 +1,8 @@
-# ClinicSite Studio · Élara
+# Virtuosa Clínica de Estética
 
 Primeiro template de website premium do ClinicSite Studio, implementado em **Next.js 16 App Router, React 19, TypeScript strict, Tailwind CSS 4, componentes shadcn/ui sobre Radix e Motion for React**. Formulários com React Hook Form e Zod.
 
-Élara é uma **marca fictícia**. Não representa uma clínica existente, pacientes, profissionais ou instalações reais. O projeto é uma proposta privada, executada localmente. Não inclui dashboard, autenticação, pagamentos, Supabase ou APIs pagas.
+Esta é uma **proposta demonstrativa de website para a Virtuosa Clínica de Estética**, em Mogi das Cruzes. Nome, endereço e telefone foram fornecidos pelo solicitante a partir do Google Maps. Serviços, equipe e imagens permanecem ilustrativos e sujeitos à aprovação. Consulte [dados e pendências da Virtuosa](docs/VIRTUOSA.md). O projeto é uma proposta executada localmente. Não inclui dashboard, autenticação, pagamentos, Supabase ou APIs pagas.
 
 ## Executar
 

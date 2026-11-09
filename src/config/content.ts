@@ -25,7 +25,7 @@ export const content = {
   contactPage: {
     vamosConversar: "Vamos conversar",
     exploreOsCanaisDeContatoDo: brand(
-      "Explore os canais de contato do website conceitual {{name}}. Formulário demonstrativo sem envio de mensagens.",
+      "Endereço e telefone da {{name}} Clínica de Estética, no Centro de Mogi das Cruzes. Formulário demonstrativo sem envio de mensagens.",
     ),
     estamosPorAqui: "ESTAMOS POR AQUI",
     todaConexaoComeca: "Toda conexão começa",
@@ -53,10 +53,10 @@ export const content = {
     voltarAoInicio: "Voltar ao início",
   },
   seo: {
-    title: brand("{{name}} — Sua essência. Outra dimensão."),
+    title: brand("{{name}} Clínica de Estética | Mogi das Cruzes"),
     titleTemplate: brand("%s | {{name}}"),
     esteticaEquilibrioEUmCuidadoQue:
-      "Estética, equilíbrio e um cuidado que respeita a sua essência. Website conceitual demonstrativo.",
+      "Virtuosa Clínica de Estética, no Centro de Mogi das Cruzes. Proposta demonstrativa de website, com endereço e telefone para contato.",
     pularParaOConteudo: "Pular para o conteúdo",
   },
   notFound: {
@@ -75,7 +75,7 @@ export const content = {
       "Estas informações descrevem o funcionamento desta demonstração conceitual, sem cadastro de pacientes ou atendimento real.",
     umaExperienciaDemonstrativa: "Uma experiência demonstrativa",
     elaraEUmaMarcaFicticiaOs: brand(
-      "{{name}} é uma marca fictícia. Os formulários de agendamento e contato servem apenas para testar a navegação. Use somente nomes, telefones e e-mails fictícios. Não informe histórico médico, sintomas ou outras informações de saúde.",
+      "Este website é uma proposta demonstrativa para a {{name}} Clínica de Estética. Os formulários de agendamento e contato servem apenas para testar a navegação. Use somente nomes, telefones e e-mails fictícios. Não informe histórico médico, sintomas ou outras informações de saúde.",
     ),
     oQueAconteceComAsInformacoes: "O que acontece com as informações",
     osCamposPermanecemTemporariamenteNaMemoria:
@@ -116,13 +116,13 @@ export const content = {
   aboutPage: {
     nossaEssencia: "Nossa essência",
     conhecaAFilosofiaDeCuidadoDo: brand(
-      "Conheça a filosofia de cuidado do conceito {{name}}. Marca fictícia demonstrativa.",
+      "Conheça a proposta de experiência digital para a {{name}} Clínica de Estética, em Mogi das Cruzes.",
     ),
     aEssenciaElara: brand("A ESSÊNCIA {{nameUpper}}"),
     cadaPessoaUmaHistoria: "Cada pessoa, uma história.",
     cadaCuidadoUmEncontro: "Cada cuidado, um encontro.",
     umConceitoDeEsteticaQueValoriza: brand(
-      "Um conceito de estética que valoriza a individualidade. A {{name}} é uma marca fictícia criada para apresentar uma nova experiência digital de cuidado.",
+      "A {{name}} Clínica de Estética está localizada no Centro de Mogi das Cruzes. Esta proposta apresenta uma possibilidade de website para a clínica; conteúdos institucionais, serviços e equipe serão revisados antes da publicação oficial.",
     ),
   },
   booking: {
@@ -214,12 +214,12 @@ export const content = {
     faleComAElara: brand("Fale com a {{name}}"),
     duvidasFrequentes: "Dúvidas frequentes",
     privacidade: "Privacidade",
-    umConceitoDeCuidado: "UM CONCEITO DE CUIDADO",
-    marcaEExperienciaFicticias: "Marca e experiência fictícias.",
-    enderecoERegistrosProfissionais: "Endereço e registros profissionais",
-    aguardamDadosVerificados: "aguardam dados verificados.",
+    umConceitoDeCuidado: "UMA PROPOSTA PARA A VIRTUOSA",
+    marcaEExperienciaFicticias: "Proposta de website para a Virtuosa.",
+    enderecoERegistrosProfissionais: "Serviços, equipe e identidade visual",
+    aguardamDadosVerificados: "aguardam validação da clínica.",
     demonstracaoConceitual: "Demonstração conceitual",
-    elara: brand("{{nameLower}}®"),
+    elara: brand("{{nameLower}}"),
     text: "© ",
     elaraProjetoConceitual: brand(" {{name}} · Projeto conceitual"),
     imagensIlustrativasGeradasPorIaNao:
@@ -227,7 +227,7 @@ export const content = {
     designQueAcolhe: "Design que acolhe.",
   },
   header: {
-    text: "®",
+    text: "",
     navegacaoPrincipal: "Navegação principal",
     agendarAvaliacao: "Agendar avaliação ",
     abrirMenu: "Abrir menu",
@@ -267,7 +267,7 @@ export const content = {
       "Esta demonstração não possui uma agenda real.",
     umaConversaAcolhedora: "Uma conversa acolhedora",
     conversarNoWhatsapp: "Conversar no WhatsApp ",
-    whatsappOficialAindaNaoCadastrado: "WhatsApp oficial ainda não cadastrado.",
+    whatsappOficialAindaNaoCadastrado: "Telefone da clínica:",
     instagramOficial: "Instagram oficial",
     vocePodeExplorarOConciergeDemonstrativo:
       "Você pode explorar o concierge demonstrativo.",
@@ -305,7 +305,7 @@ export const content = {
     nosDetalhesNaAtmosferaNoTempo:
       "Nos detalhes, na atmosfera, no tempo dedicado a você.",
     conhecaAInspiracaoPorTrasDo:
-      "Conheça a inspiração por trás do nosso espaço.",
+      "Explore uma direção visual ilustrativa para o futuro website.",
     umaVisaoConceitualDeAcolhimento: "Uma visão conceitual de acolhimento.",
     imagemAnterior: "Imagem anterior",
     proximaImagem: "Próxima imagem",
@@ -324,7 +324,7 @@ export const content = {
       string,
     ],
     esteticaIdentidadeEvolucao: " ESTÉTICA. IDENTIDADE. EVOLUÇÃO.",
-    umNovoOlharElara: brand("UM NOVO OLHAR / {{nameUpper}}"),
+    umNovoOlharElara: brand("{{nameUpper}} / MOGI DAS CRUZES"),
     umNovoOlharSobreAEstetica: "Um novo olhar sobre a estética.",
     umCuidadoQueComecaEmQuem: "Um cuidado que começa em quem você é.",
     comeceASuaExperiencia: "Comece a sua experiência",
@@ -332,8 +332,7 @@ export const content = {
     osCuidados: "OS CUIDADOS",
     textIndividualidade: "01 — INDIVIDUALIDADE",
     exploreOutraPerspectiva: "EXPLORE OUTRA PERSPECTIVA",
-    conceitoDemonstrativoMarcaFicticia:
-      "CONCEITO DEMONSTRATIVO · MARCA FICTÍCIA",
+    conceitoDemonstrativoMarcaFicticia: "PROPOSTA DE WEBSITE · DEMONSTRAÇÃO",
     scrollToDiscover: "SCROLL TO DISCOVER ↘",
   },
   philosophy: {
@@ -351,7 +350,7 @@ export const content = {
     outraVersao: "outra versão",
     deVoce: "de você.",
     aElaraEUmConceitoDe: brand(
-      "A {{name}} é um conceito de cuidado que coloca a sua individualidade no centro. Espaço para ouvir. Tempo para compreender. Liberdade para escolher.",
+      "Uma proposta digital para a {{name}} Clínica de Estética, no Centro de Mogi das Cruzes. Uma experiência para conhecer a clínica e encontrar seus canais de contato.",
     ),
     entreNoUniversoElara: brand("Entre no universo {{name}} "),
   },

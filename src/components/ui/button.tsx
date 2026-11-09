@@ -7,7 +7,7 @@ export const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-action text-action-text hover:bg-action-hover",
+        default: "bg-secondary border border-white/50 text-card font-semibold hover:bg-action-hover",
         outline: "border border-current bg-transparent hover:bg-olive/5",
         ghost: "hover:bg-olive/5",
         light: "bg-action-light text-action-text hover:bg-inverse",
