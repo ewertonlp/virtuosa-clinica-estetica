@@ -87,12 +87,12 @@ export function Header() {
                 className="mobile-menu"
                 aria-label={copy.abrirMenu}
               >
-                <Menu />
+                <Menu/>
               </Button>
             </DialogTrigger>
             <DialogContent>
-              <DialogTitle className="font-serif text-4xl">
-                {copy.exploreAElara}
+              <DialogTitle className="font-serif text-2xl">
+                {copy.exploreAVirtuosa}
               </DialogTitle>
               <DialogDescription className="mt-2 text-sm text-muted">
                 {copy.cuidadoEmCadaDetalhe}

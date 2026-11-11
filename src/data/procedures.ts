@@ -20,7 +20,13 @@ export const procedures: Procedure[] = [
     name: "Cuidado facial",
     category: "Facial",
     description: "Um novo olhar para o cuidado com a sua pele.",
-    image: media.hero,
+ image: {
+      src: "/images/hero.webp",
+      alt: "Descrição da imagem do cuidado corporal",
+      width: 1200,
+      height: 800,
+      caption: "Imagem ilustrativa",
+    },
     imagePosition: "80% 50%",
     intro:
       "Uma proposta de escuta e atenção à individualidade da pele. Esta categoria ilustra como os cuidados faciais poderão ser apresentados na clínica.",
@@ -33,7 +39,13 @@ export const procedures: Procedure[] = [
     name: "Harmonia corporal",
     category: "Corporal",
     description: "Respeito ao seu corpo, à sua essência e ao seu tempo.",
-    image: media.philosophy,
+    image: {
+      src: "/images/harmonizacao-corporal.jpg",
+      alt: "Descrição da imagem do cuidado corporal",
+      width: 1000,
+      height: 800,
+      caption: "Imagem ilustrativa",
+    },
     imagePosition: "50% 50%",
     intro:
       "Um espaço para conversar sobre expectativas e possibilidades de cuidado corporal, sempre a partir de uma avaliação profissional. Categoria ilustrativa do template.",
@@ -46,7 +58,13 @@ export const procedures: Procedure[] = [
     name: "Bem-estar integral",
     category: "Bem-estar",
     description: "Uma pausa para se reconectar com o que importa.",
-    image: media.gallery[0],
+    image: {
+      src: "/images/bem-estar.jpg",
+      alt: "Descrição da imagem do bem estar",
+      width: 1200,
+      height: 800,
+      caption: "Imagem ilustrativa",
+    },
     imagePosition: "38% 50%",
     intro:
       "Acolhimento, presença e tempo para você. Uma categoria conceitual para apresentar a experiência de bem-estar que poderá fazer parte de uma clínica real.",
