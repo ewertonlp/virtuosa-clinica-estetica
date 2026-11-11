@@ -2350,12 +2350,12 @@ a {
     z-index: 44;
     padding: 17px 23px;
     padding-bottom: calc(17px + env(safe-area-inset-bottom));
-    font-size: 11px;
+    font-size: 12px;
     background: var(--accent);
-    color: var(--clinic-on-action);
+    color: var(--page);
     border-radius: 40px;
-    box-shadow: 0 5px 20px
-      color-mix(in srgb, var(--clinic-black) 33.333333%, transparent);
+    box-shadow: 0 10px 20px
+      color-mix(in srgb, #000000 33.333333%, transparent);
   }
   .concierge-panel {
     right: 12px;
