@@ -1908,7 +1908,7 @@ a {
   .site-header .mobile-menu {
     height: 80px;
      display: block;
-     margin-left: 20px;
+     margin-left: 10px;
   }
   .brand-name {
     font-size: 36px;
@@ -1926,6 +1926,7 @@ a {
   }
 
   .header-booking {
+    display: none;
     font-size: 9px;
     padding: 9px 12px;
     min-height: 37px;
@@ -2019,7 +2020,7 @@ a {
   .hero-explore {
     width: 66px;
     height: 66px;
-    top: 26%;
+    top: 50%;
     right: 0;
     bottom: auto;
     gap: 5px;
